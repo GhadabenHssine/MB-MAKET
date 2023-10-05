@@ -1,0 +1,264 @@
+.container {
+min-height: 150vh;
+    position: relative;
+    /* padding-top: 150px; */
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+    
+}
+.containerTitle{
+    border-radius: 10px;
+    background: rgba(93, 65, 221, 0.28);
+    width: 354px;
+height: 78px;
+flex-shrink: 0;
+margin-left: -55px;
+margin-top: 71px;
+
+}
+
+.containerTitle>.title{
+
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 45px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 14px 9px 10px 64px;
+
+
+
+}
+.blocImg{
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+  
+    
+}
+
+
+
+.icons >p{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 28px;
+    margin-top: 20px;
+
+}
+.paragraphe{
+    color: #999;
+text-align: center;
+font-family: Inter;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 236px;
+height: 52px;
+
+
+}
+.imgbg{
+    position: absolute;
+    top: -230px;
+    margin-left: -20px;
+}
+
+.blocBg{
+    margin-top: 130px;
+    padding: 50px; 
+   z-index:99;
+   position: relative;
+ 
+}
+
+.bgtitle{
+    color: #5D41DD;
+    text-align: center;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   
+  
+ margin-top: 40px;
+
+}
+.bgparagraphe{
+    color: #595959;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+margin-top: 34px;
+}
+
+.bloc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+/* bloc 1 */
+.bloc1{
+    width: 265px;
+height: 390px;
+border-radius: 6px;
+background: #FFF;
+box-shadow: 3px 3px 17px 8px rgba(0, 0, 0, 0.10);
+margin-bottom: 20px;
+}
+.bloc1>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+.bloc1>div>.titleB1{
+    color: #252525;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 189.523%;
+}
+.bloc1>div>.SuTB1{
+    color: #252525;
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 189.523%;
+margin-bottom: 26px;
+}
+.bloc1>div>.SuTB1>span{
+    color: #252525;
+font-family: Inter;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: 189.523%;
+
+}
+.bloc1>div>.paragrapheB1{
+    color: #686868;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 172.023%;
+    
+}
+.bloc1>div>.btn1{
+    width: 150px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 8px;
+background: #FFF;
+box-shadow: 1px 4px 7px 2px rgba(93, 65, 221, 0.25);
+border: none;
+color: rgba(93, 65, 221, 0.71);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 189.523%;
+margin-top: 32px;
+}
+ 
+/* End bloc 1 et bloc3*/
+
+/* bloc2*/
+.bloc2{
+    width: 300px;
+height: 425px;
+flex-shrink: 0;
+border-radius: 6px;
+background: #5D41DD;
+box-shadow: -2px -2px 37px 10px rgba(93, 65, 221, 0.30);
+margin-bottom: 20px;
+}
+.bloc2>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+.bloc2>div>.titleB2{
+    color: #FFF;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 189.523%; /* 22.743px */
+}
+.bloc2>div>.SuTB2{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 189.523%; /* 60.647px */
+}
+.bloc2>div>.SuTB2 >span{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 189.523%;
+}
+
+.bloc2>div>.paragrapheB2{
+    color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 172.023%; /* 27.524px */
+margin-bottom: 52px;
+}
+.bloc2>div>.paragrapheB2>span{
+
+font-weight: 600;
+
+}
+.bloc2>div>.btn2{
+    width: 169px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FFF;
+color: #272727;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 189.523%; /* 30.324px */
+border: none;
+}
+
+/* end bloc2*/
